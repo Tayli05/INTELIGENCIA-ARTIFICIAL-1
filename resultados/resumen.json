@@ -1,0 +1,57 @@
+{
+  "modelo": "MLP 57-32-10",
+  "filas_originales": 1000,
+  "filas_utilizadas": 972,
+  "filas_excluidas": 28,
+  "train": 777,
+  "test": 195,
+  "clases": [
+    "blues",
+    "classical",
+    "country",
+    "disco",
+    "hiphop",
+    "jazz",
+    "metal",
+    "pop",
+    "reggae",
+    "rock"
+  ],
+  "epocas": 150,
+  "lr": 0.01,
+  "parametros": 2186,
+  "metricas": {
+    "accuracy": 0.676923076923077,
+    "precision": 0.6748495543843841,
+    "recall": 0.6986248668921304,
+    "f1": 0.6718376374667535
+  },
+  "accuracy_train": 1.0,
+  "aciertos": 132,
+  "confusiones": [
+    {
+      "real": "blues",
+      "predicho": "country",
+      "cantidad": 6
+    },
+    {
+      "real": "jazz",
+      "predicho": "classical",
+      "cantidad": 4
+    },
+    {
+      "real": "hiphop",
+      "predicho": "reggae",
+      "cantidad": 4
+    }
+  ],
+  "celdas_codigo": 13,
+  "lineas_codigo": 151,
+  "longitud_maxima": 64,
+  "recuperacion_verificada": true,
+  "versiones": {
+    "torch": "2.7.1+cu118",
+    "numpy": "2.4.6",
+    "pandas": "3.0.5"
+  }
+}
